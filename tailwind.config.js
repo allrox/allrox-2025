@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary100: "#d3ddff",
-        primary500: "#3364ff",
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        highlight: "#00d9ff",
+        darkBackground: '#1a213f'
+      },
+      backgroundImage: {
+        'hero-background': "url('/img/bg-slider.webp')",
       },
     },
   },
