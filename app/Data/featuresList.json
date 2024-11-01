@@ -1,0 +1,32 @@
+[
+  {
+    "image": "./img/digital-transformation.webp",
+    "text": "Apoio à transformação digital",
+    "hover": "Aprimore o seu negócio com novas tecnologias"
+  },
+  {
+    "image": "./img/data.webp",
+    "text": "Design e desenvolvimento web",
+    "hover": "Desenvolvimento de sites e design de interfaces"
+  },
+  {
+    "image": "./img/ux.webp",
+    "text": "Design de UX e Interface",
+    "hover": "Design de aplicativos web e mobile, com foco na experiência do usuário."
+  },
+  {
+    "image": "./img/consultoria.webp",
+    "text": "Consultoria em TI",
+    "hover": "Soluções de TI que atendem às suas necessidades específicas."
+  },
+  {
+    "image": "./img/squads.webp",
+    "text": "Squads Ágeis",
+    "hover": "Squads de alto desempenho dedicadas ao seu projeto."
+  },
+  {
+    "image": "./img/web-e-mobile.webp",
+    "text": "Aplicações Web e Mobile",
+    "hover": "Aplicações para plataformas web e dispositivos móveis."
+  }
+]
