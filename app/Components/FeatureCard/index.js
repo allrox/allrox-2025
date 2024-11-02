@@ -16,13 +16,13 @@ export default function FeatureCard({ text, image, hover }) {
             />
             <p
                 id="textoPadrao"
-                className={`text-white text-center text-sm ${isHovered ? "hidden" : "block"}`}
+                className={`text-white m-0 text-center text-sm ${isHovered ? "hidden" : "block"}`}
             >
                 {text}
             </p>
             <p
                 id="textoHover"
-                className={`text-black text-center text-sm leading-none ${isHovered ? "block" : "hidden"
+                className={`text-black m-0 text-center text-sm leading-none ${isHovered ? "block" : "hidden"
                     }`}
             >
                 {hover}
