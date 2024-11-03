@@ -1,24 +1,24 @@
 "use client"
-import FeatureCard from "./Components/FeatureCard";
+import Navigation from './Components/Navigation';
+import TitleLevel2 from "./Components/TitleLevel2";
 import Badge from "./Components/Badge";
 import Button from "./Components/Button";
-import H2Title from "./Components/H2Title";
-import Navigation from './Components/Navigation';
 import GlowingSection from "./Components/GlowingSection";
+import FeatureCard from "./Components/FeatureCard";
 import featuresList from "./Data/featuresList.json";
+import PortfolioItem from "./Components/PortfolioItem";
 import Workflow from "./Components/Workflow";
 import Section2col from "./Components/Section2Col";
 import Section1col from "./Components/Section1Col";
-import PortfolioItem from "./Components/PortfolioItem";
 
 export default function Home() {
 
   return (
-    <div className="main">
+    <div id="main" className="main">
       <header className="min-w-full">
         <div className="flex flex-col min-h-screen bg-hero-background bg-cover bg-center">
           <Navigation />
-          <div className="flex flex-col justify-center items-center grow pb-20">
+          <div className="container mx-auto flex flex-col justify-center items-center grow pb-20">
             <div className="text-xs text-black px-4 py-2 mb-8 rounded-lg bg-highlight font-semibold uppercase">A transformação digital começa aqui</div>
             <h1 className="text-6xl md:text-9xl text-white font-black text-center leading-none tracking-tighter"><span className="text-highlight">Tecnologia</span> para Negócios</h1>
             <h2 className="text-white text-2xl mt-6 font-light text-center">Criação de sites, landing pages e soluções tecnológicas para acelerar o seu crescimento.</h2>
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-10">
           <div className="flex flex-col justify-center items-start">
             <Badge text="Sobre nós" />
-            <H2Title><span className="text-highlight">Somos a resposta</span> para desbloquear o potencial do seu negócio.</H2Title>
+            <TitleLevel2><span className="text-highlight">Somos a resposta</span> para desbloquear o potencial do seu negócio.</TitleLevel2>
             <p className="text-white">Desde 2009 criamos sites otimizados para o Google, desenvolvemos aplicações personalizadas e prestamos consultoria para superar desafios empresariais. 🚀</p>
             <p className="text-highlight font-bold">Especialistas em tecnologia, administração, finanças e marketing, oferecemos soluções de alta qualidade com ética e transparência.</p>
           </div>
@@ -53,7 +53,7 @@ export default function Home() {
         <div>
           <div className="flex flex-col items-start">
             <Badge text="Como funciona?" />
-            <H2Title><span className="text-highlight">Ouvir, entender,</span> resolver.</H2Title>
+            <TitleLevel2><span className="text-highlight">Ouvir, entender,</span> resolver.</TitleLevel2>
             <p className="text-white">Iniciamos seu projeto em três etapas: atendimento, análise técnica e aprovação da proposta.</p>
           </div>
           <Workflow />
@@ -79,7 +79,7 @@ export default function Home() {
       <Section2col id="qualidade">
         <div className="inline-flex flex-col items-start">
           <Badge text="Qualidade de ponta a ponta" />
-          <H2Title>Atendimento <span className="text-highlight">qualificado</span></H2Title>
+          <TitleLevel2>Atendimento <span className="text-highlight">qualificado</span></TitleLevel2>
           <p>Todos os projetos são analisados a partir das visões da tecnologia, gestão e marketing. Este é um dos diferenciais que permeiam as nossas atividades e potencializa os resultados.</p>
           <p>Agende um horário para conversar com nossos especialistas sobre a solução que você procura para o seu negócio.</p>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
         <Section1col >
           <div className="flex flex-col justify-center items-start">
             <Badge text="Qualidade de ponta a ponta" />
-            <H2Title>Confira alguns <span className="text-highlight">projetos realizados</span>.</H2Title>
+            <TitleLevel2>Confira alguns <span className="text-highlight">projetos realizados</span>.</TitleLevel2>
             <p className="text-white">Escolha um projeto e clique na miniatura para navegar.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-4 mt-4">
@@ -114,7 +114,7 @@ export default function Home() {
       <section id="depoimentos" className="container mt-16 px-4 mx-auto">
         <GlowingSection className="justify-center items-center">
           <Badge text="Feedback"></Badge>
-          <H2Title>Opiniões de <span className="text-highlight">clientes reais</span>.</H2Title>
+          <TitleLevel2>Opiniões de <span className="text-highlight">clientes reais</span>.</TitleLevel2>
           <p className="mb-8">Usamos ferramentas, boas práticas e técnicas dos métodos ágeis para oferecer segurança ao seu projeto, através de uma gestão eficiente, com alto poder de entrega. <span className="text-highlight font-bold">Aqui, você acompanha cada etapa através do nosso sistema de gestão, de forma transparente, do orçamento à entrega.</span></p>
           <script src="https://static.elfsight.com/platform/platform.js" async></script>
           <div className="elfsight-app-17c826c4-eb69-403e-9b58-8111974fc9bf" data-elfsight-app-lazy></div>
@@ -129,7 +129,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-start">
               <Badge text="Agile friendly" />
-              <H2Title>Squads <span className="text-highlight">Ágeis</span>.</H2Title>
+              <TitleLevel2>Squads <span className="text-highlight">Ágeis</span>.</TitleLevel2>
               <p className="text-highlight font-bold">71% das empresas que precisam desenvolver soluções em tecnologia já planejavam usar squads ágeis dois anos atrás.</p>
               <p>Para aumentar a velocidade de reação do seu negócio aos movimentos de mercado e da concorrência, alocando profissionais para desenvolver os seus projetos, conte com a gente.</p>
               <Button icon="bi bi-calendar-day">Agendar Atendimento</Button>
@@ -141,7 +141,7 @@ export default function Home() {
       <Section2col id="conteudo grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
         <div className="flex flex-col items-start">
           <Badge text="Qualidade de ponta a ponta" />
-          <H2Title>Confira o que está em alta no canal do <span className="text-highlight">YouTube.</span></H2Title>
+          <TitleLevel2>Confira o que está em alta no canal do <span className="text-highlight">YouTube.</span></TitleLevel2>
           <p>Vídeos exclusivos sobre tecnologia, negócios e empreendedorismo.</p>
           <p className="text-highlight font-bold">Agende um horário para conversar com nossos especialistas sobre a solução que você procura para o seu negócio.</p>
         </div>
@@ -155,7 +155,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10">
             <div className="order-2 lg:order-1 flex flex-col items-start justify-center">
               <Badge text="CX Positiva" />
-              <H2Title>A experiência do consumidor vale ouro.</H2Title>
+              <TitleLevel2>A experiência do consumidor vale ouro.</TitleLevel2>
               <p>Gestores e negócios têm propósitos e personalidades que os tornam únicos. Por isso, nos preocupamos em estabelecer uma relação com experiências personalizadas.</p>
               <p className="text-highlight font-bold">Se você quer um atendimento mais objetivo e já tem um briefing detalhado, clique no botão abaixo para enviar a sua demanda.</p>
               <Button icon="bi bi-window">Orçamento Online</Button>
@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       <Section1col>
-        <div className="text-center">&copy; AllRox 2024. Todos os direitos reservados.</div>
+        <div className="flex flex-col md:flex-row justify-center items-center text-center">&copy; AllRox 2024. Todos os direitos reservados. <a href="#main" className="text-highlight font-bold"><i class="bi bi-arrow-up-short"></i>Ir para o topo.</a></div>
       </Section1col>
 
     </div>
