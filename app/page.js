@@ -160,8 +160,8 @@ export default function Home() {
               <p className="text-highlight font-bold">Se você quer um atendimento mais objetivo e já tem um briefing detalhado, clique no botão abaixo para enviar a sua demanda.</p>
               <Button icon="bi bi-window">Orçamento Online</Button>
             </div>
-            <div className="order-1 lg:order-2">
-              <img className="w-[450px] max-w-full justify-self-center" src="./img/customer-experience.webp" />
+            <div className="flex flex-col order-1 lg:order-2 items-center justify-center">
+              <img className="w-[450px] max-w-full" src="./img/customer-experience.webp" />
             </div>
 
           </div>
