@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       <Section1col>
-        <div className="flex flex-col md:flex-row justify-center items-center text-center">&copy; AllRox 2024. Todos os direitos reservados. <a href="#main" className="text-highlight font-bold"><i class="bi bi-arrow-up-short"></i>Ir para o topo.</a></div>
+        <div className="flex flex-col md:flex-row justify-center items-center text-center">&copy; AllRox 2024. Todos os direitos reservados. <a href="#main" className="text-highlight font-bold"><i className="bi bi-arrow-up-short"></i>Ir para o topo.</a></div>
       </Section1col>
 
     </div>

@@ -1,5 +1,6 @@
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "AllRox • Tecnologia para Negócios",
