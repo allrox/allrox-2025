@@ -1,6 +1,7 @@
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   title: "AllRox • Tecnologia para Negócios",
@@ -12,6 +13,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-darkBackground pb-14">
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
