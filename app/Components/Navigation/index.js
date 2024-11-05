@@ -22,7 +22,7 @@ export default function Navigation() {
         ☰
       </button>
 
-      <div className={`${isOpen ? "block" : "hidden"} sm:flex`}>
+      <nav role="navigation" className={`${isOpen ? "block" : "hidden"} sm:flex`}>
         <ul className="text-xl md:text-base flex flex-col sm:flex-row gap-4 mt-4 sm:mt-0 sm:ml-10 text-center leading-snug" justify="center">
           <li>
             <a className="hover:text-[#ffcd48] hover:font-bold" href="#sobre">
@@ -45,7 +45,7 @@ export default function Navigation() {
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 }
