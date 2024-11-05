@@ -1,0 +1,42 @@
+[
+    {
+      "image": "./img/portfolio/robson-georgny.webp",
+      "label": "Robson Georgny",
+      "link": "https://robsongeorgny.com.br"
+    },
+    {
+      "image": "./img/portfolio/audiblue.webp",
+      "label": "Audiblue",
+      "link": "https://audiblue.com"
+    },
+    {
+      "image": "./img/portfolio/begen.webp",
+      "label": "Begen AI",
+      "link": "https://begen.ai"
+    },
+    {
+      "image": "./img/portfolio/ufrla.webp",
+      "label": "UFRLA",
+      "link": "https://ufrla.com"
+    },
+    {
+      "image": "./img/portfolio/omntex.webp",
+      "label": "OmnTex",
+      "link": "https://omntex.com.br"
+    },
+    {
+      "image": "./img/portfolio/jaguar.webp",
+      "label": "Jaguar Soluções Empresariais",
+      "link": "https://jaguarsolucoes.com.br"
+    },
+    {
+      "image": "./img/portfolio/gutter-heroes.webp",
+      "label": "Gutter Heroes",
+      "link": "https://gutterheroesfl.com"
+    },
+    {
+      "image": "./img/portfolio/freelaemcasa.webp",
+      "label": "FreelaEmCasa",
+      "link": "https://freelaemcasa.com"
+    }
+  ]
