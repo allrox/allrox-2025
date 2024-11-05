@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Logo } from "./Logo.js";
+import Logo from '../Navigation/Logo.js';
 
 export default function Navigation() {
 

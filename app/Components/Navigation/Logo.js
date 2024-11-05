@@ -1,3 +1,4 @@
-export const Logo = () => (
-    <img src="./img/allrox-logo.webp" className="h-10 mx-8" />
-  );
+export default function Logo() {
+  return (
+    <img src="./img/allrox-logo.webp" alt="Logo" className="h-10 mx-8" />)
+};
