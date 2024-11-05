@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function FeatureCard({ text, image, hover }) {
+export default function FeatureCard({ text, image, hover, alt }) {
 
     const [isHovered, setIsHovered] = useState(false);
 
@@ -13,6 +13,7 @@ export default function FeatureCard({ text, image, hover }) {
             <img
                 src={image}
                 className={`w-12 ${isHovered ? "hidden" : "block"}`}
+                alt={alt}
             />
             <p
                 id="textoPadrao"
