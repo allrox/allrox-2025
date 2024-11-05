@@ -17,7 +17,7 @@ import portfolio from "./Data/portfolio.json"
 export default function Home() {
 
   return (
-    <div className="main">
+    <main role="main">
       <header className="min-w-full">
         <div className="flex flex-col min-h-screen bg-hero-background bg-cover bg-center">
           <Navigation />
@@ -167,6 +167,6 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center items-center text-center">&copy; AllRox 2024. Todos os direitos reservados. <a href="#main" className="text-highlight font-bold"><i className="bi bi-arrow-up-short"></i>Ir para o topo.</a></div>
       </Section1col>
 
-    </div>
+    </main>
   );
 }
