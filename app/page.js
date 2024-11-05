@@ -17,7 +17,7 @@ import portfolio from "./Data/portfolio.json"
 export default function Home() {
 
   return (
-    <div id="main" className="main">
+    <div className="main">
       <header className="min-w-full">
         <div className="flex flex-col min-h-screen bg-hero-background bg-cover bg-center">
           <Navigation />

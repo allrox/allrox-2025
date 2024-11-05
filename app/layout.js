@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <meta property="og:title" content="Tecnologia para Negócios."/>
     <meta property="og:description" content="Soluções personalizadas em tecnologia, transformação digital, desenvolvimento de Sites, Landing Pages, Design de UX, UI, Squads Ágeis e Projetos Personalizados." />
 
-      <body className="bg-darkBackground pb-14">
+      <body className="bg-darkBackground pb-14" role="main">
         {children}
         <Analytics />
         <SpeedInsights />
