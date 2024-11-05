@@ -51,7 +51,7 @@ export default function Home() {
 
       <Section2col id="como-funciona">
         <div className="justify-self-center items-center">
-          <img src="./img/como-funciona.webp" />
+          <img src="./img/como-funciona.webp" alt="Ilustração como funciona?" />
         </div>
         <div>
           <div className="flex flex-col items-start">
@@ -67,14 +67,14 @@ export default function Home() {
 
       <section className="container mx-auto px-4 pt-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-8">
-          <GlowingCard badge="Pontualidade" title={<><span className="text-highlight">No prazo</span>, sempre!</>} image="./img/agile.webp">
-            <p>Utilizamos ferramentas, boas práticas e técnicas de métodos ágeis para garantir segurança ao seu projeto, através de uma gestão eficiente e com alto poder de entrega.</p>
-            <p>Aqui, você acompanha cada etapa através do nosso sistema de gestão, de forma transparente, do orçamento à entrega.</p>
-          </GlowingCard>
-          <GlowingCard badge="Agile" title={<><span className="text-highlight">Eficiência</span> na gestão.</>} image="./img/no-prazo.webp">
+          <GlowingCard badge="Agile" title={<><span className="text-highlight">Eficiência</span> na gestão.</>} image="./img/no-prazo.webp" alt="Ilustração gestão de projetos">
             <p>Segundo a Harvard Business Review, 70% dos projetos de TI em todo o mundo ultrapassam prazos e comprometem orçamentos. Neste cenário, é vital escolher bem seus fornecedores de tecnologia.</p>
             <p className="text-highlight font-bold">O compromisso com prazos e os altos padrões de qualidade estão em nosso DNA. Assim protegemos os seus projetos e o seu bolso.</p>
             <Button icon="bi bi-window">Painel do Cliente</Button>
+          </GlowingCard>
+          <GlowingCard badge="Pontualidade" title={<><span className="text-highlight">No prazo</span>, sempre!</>} image="./img/agile.webp" alt="Ilustração métodos ágeis">
+            <p>Utilizamos ferramentas, boas práticas e técnicas de métodos ágeis para garantir segurança ao seu projeto, através de uma gestão eficiente e com alto poder de entrega.</p>
+            <p>Aqui, você acompanha cada etapa através do nosso sistema de gestão, de forma transparente, do orçamento à entrega.</p>
           </GlowingCard>
         </div>
       </section>
@@ -123,7 +123,7 @@ export default function Home() {
       <GlowingSection id="agile" className="container mt-16 px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="flex items-center justify-center">
-            <img className="max-w-full" src="./img/agile-squads.webp" />
+            <img className="max-w-full" src="./img/agile-squads.webp" alt="Ilustração squads ágeis"/>
           </div>
           <div className="flex flex-col items-start">
             <Badge text="Agile friendly" />
@@ -157,7 +157,7 @@ export default function Home() {
             <Button icon="bi bi-window">Orçamento Online</Button>
           </div>
           <div className="flex flex-col order-1 lg:order-2 items-center justify-center">
-            <img className="w-[450px] max-w-full" src="./img/customer-experience.webp" />
+            <img className="w-[450px] max-w-full" src="./img/customer-experience.webp" alt="Ilustração customer experience"/>
           </div>
         </div>
       </GlowingSection>
