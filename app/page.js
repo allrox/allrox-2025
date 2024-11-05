@@ -43,6 +43,7 @@ export default function Home() {
                 key={index}
                 image={feature.image}
                 text={feature.text}
+                alt={feature.text}
                 hover={feature.hover} />
             ))}
           </div>
