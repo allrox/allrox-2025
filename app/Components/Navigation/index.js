@@ -24,24 +24,36 @@ export default function Navigation() {
       </button>
 
       <nav role="navigation" className={`${isOpen ? "block" : "hidden"} sm:flex`}>
-        <ul className="text-xl md:text-base flex flex-col sm:flex-row gap-4 mt-4 sm:mt-0 sm:ml-10 text-center leading-snug" justify="center">
+        <ul className="text-lg md:text-base flex flex-col sm:flex-row gap-4 mt-4 sm:mt-0 sm:ml-10 text-center leading-snug" justify="center">
           <li>
-            <a className={link} href="#sobre">
+            <a
+              className={link}
+              onClick={toggleMenu}
+              href="#sobre">
               Sobre nós
             </a>
           </li>
           <li>
-            <a className={link} href="#como-funciona">
+            <a
+              className={link}
+              onClick={toggleMenu}
+              href="#como-funciona">
               Como funciona?
             </a>
           </li>
           <li>
-            <a className={link} href="#portfolio">
+            <a
+              className={link}
+              onClick={toggleMenu}
+              href="#portfolio">
               Portfolio
             </a>
           </li>
           <li>
-            <a className={link} href="#depoimentos">
+            <a
+              className={link}
+              onClick={toggleMenu}
+              href="#depoimentos">
               Opiniões de clientes
             </a>
           </li>
