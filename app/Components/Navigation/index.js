@@ -3,6 +3,7 @@ import Logo from '../Navigation/Logo.js';
 
 export default function Navigation() {
 
+  const link = "hover:text-[#ffcd48] hover:font-bold";
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -10,7 +11,7 @@ export default function Navigation() {
   }
 
   return (
-    <div className="flex flex-col sm:flex-row py-8 text-white mx-auto w-full sm:justify-center items-center">
+    <div className="flex flex-col sm:flex-row sm:justify-center items-center py-8 mx-auto w-full text-white">
       <div>
         <Logo />
       </div>
@@ -25,22 +26,22 @@ export default function Navigation() {
       <nav role="navigation" className={`${isOpen ? "block" : "hidden"} sm:flex`}>
         <ul className="text-xl md:text-base flex flex-col sm:flex-row gap-4 mt-4 sm:mt-0 sm:ml-10 text-center leading-snug" justify="center">
           <li>
-            <a className="hover:text-[#ffcd48] hover:font-bold" href="#sobre">
+            <a className={link} href="#sobre">
               Sobre nós
             </a>
           </li>
           <li>
-            <a className="hover:text-[#ffcd48] hover:font-bold" href="#como-funciona">
+            <a className={link} href="#como-funciona">
               Como funciona?
             </a>
           </li>
           <li>
-            <a className="hover:text-[#ffcd48] hover:font-bold" href="#portfolio">
+            <a className={link} href="#portfolio">
               Portfolio
             </a>
           </li>
           <li>
-            <a className="hover:text-[#ffcd48] hover:font-bold" href="#depoimentos">
+            <a className={link} href="#depoimentos">
               Opiniões de clientes
             </a>
           </li>
