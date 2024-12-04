@@ -10,16 +10,6 @@
       "link": "https://audiblue.com"
     },
     {
-      "image": "./img/portfolio/begen.webp",
-      "label": "Begen AI",
-      "link": "https://begen.ai"
-    },
-    {
-      "image": "./img/portfolio/ufrla.webp",
-      "label": "UFRLA",
-      "link": "https://ufrla.com"
-    },
-    {
       "image": "./img/portfolio/omntex.webp",
       "label": "OmnTex",
       "link": "https://omntex.com.br"
